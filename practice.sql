@@ -169,8 +169,8 @@ SELECT
 FROM
     countries
 WHERE
-    country_code = "ALB"
-    OR country_code = "DZA"
+    ( country_code = "ALB"
+    OR country_code = "DZA" )
     AND indep_year < 1990;
 
 -- 問14
